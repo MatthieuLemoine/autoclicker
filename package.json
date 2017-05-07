@@ -1,28 +1,28 @@
 {
-  "name": "auto-clicker",
+  "name": "autoclicker",
   "version": "1.0.0",
-  "description": "An auto clicker built with Node.js.",
+  "description": "An autoclicker built with Node.js.",
   "main": "lib/index.js",
   "bin": {
-    "auto-clicker": "bin/index.js"
+    "autoclicker": "bin/index.js"
   },
   "scripts": {
     "start": "node index.js",
     "lint": "eslint **/*.js",
     "lint:fix": "eslint --fix **/*.js"
   },
-  "repository": "git+https://github.com/MatthieuLemoine/auto-clicker.git",
+  "repository": "git+https://github.com/MatthieuLemoine/autoclicker.git",
   "keywords": [
-    "auto",
-    "clicker",
-    "node"
+    "autoclicker",
+    "automation",
+    "clicker-game"
   ],
   "author": "MatthieuLemoine",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MatthieuLemoine/auto-clicker/issues"
+    "url": "https://github.com/MatthieuLemoine/autoclicker/issues"
   },
-  "homepage": "https://github.com/MatthieuLemoine/auto-clicker#readme",
+  "homepage": "https://github.com/MatthieuLemoine/autoclicker#readme",
   "dependencies": {
     "chalk": "^1.1.3",
     "iohook": "^0.1.8",

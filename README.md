@@ -1,18 +1,18 @@
-# auto-cliker
+# autocliker
 
-:point_up_2: An auto clicker built with Node.js.
+:point_up_2: An autoclicker built with Node.js.
 
 
 ## Install
 
 ```
-npm i -g auto-clicker
+npm i -g autoclicker
 ```
 
 ## Usage
 
 ```
-auto-clicker
+autoclicker
 ```
 
 Commands :
@@ -23,14 +23,14 @@ Commands :
 
 ## Lib
 
-``auto-clicker`` can be used as a module in an existing application
+``autoclicker`` can be used as a module in an existing application
 
 ```
-npm install --save auto-clicker
+npm install --save autoclicker
 ```
 
 ```javascript
-const autoClicker = require('auto-clicker');
+const autoClicker = require('autoclicker');
 // S key
 const START   = 31;
 // R key
